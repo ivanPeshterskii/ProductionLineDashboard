@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Line Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Production Line Dashboard</h1>
+    </header>
+
+    <main>
+        <section class="stats">
+            <div class="stat">
+                <h2>Total Produced</h2>
+                <p id="totalProduced">0</p>
+            </div>
+            <div class="stat">
+                <h2>Downtime (min)</h2>
+                <p id="downtime">0</p>
+            </div>
+            <div class="stat">
+                <h2>Performance</h2>
+                <p id="performance">0 items/min</p>
+            </div>
+        </section>
+
+        <section class="controls">
+            <button id="produceBtn">Produce Item</button>
+            <button id="pauseBtn">Pause Machine</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

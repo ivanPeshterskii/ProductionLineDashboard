@@ -1,0 +1,16 @@
+{
+  "name": "production-dashboard",
+  "version": "1.0.0",
+  "description": "Full stack production line dashboard demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
